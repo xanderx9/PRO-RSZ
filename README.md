@@ -28,7 +28,12 @@ Copy Private Key
 ```bash
 python3 key_to_address.py
 ```
-Enter your raw private key (hex format): 0xc477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96
+Enter your raw private key (hex format)
+```bash
+0xc477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96
+```
+
+
 
 
 
