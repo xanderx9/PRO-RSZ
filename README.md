@@ -33,8 +33,10 @@ Enter your raw private key (hex format)
 0xc477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96
 ```
 ![IMG_20250122_140814](https://github.com/user-attachments/assets/3a816c53-8d73-468e-ab9d-b8a50aae5665)
-
-
+Real Private Key (Hex) c477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96
+Copy Private Key and Past Website
+bitaddress.org
+![IMG_20250122_134705](https://github.com/user-attachments/assets/26e48882-f9a0-4a30-b7c4-1b27db708b56)
 
 
 
