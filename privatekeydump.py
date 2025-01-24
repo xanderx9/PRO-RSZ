@@ -9,7 +9,7 @@ from sympy import mod_inverse
 
 # Parsing user input
 parser = argparse.ArgumentParser(description="[+] Get RSZ Value from Bitcoin Transaction", epilog="[+] CRYPTOGRAPHYTUBE \n")
-parser.add_argument("-txid", help="Enter txid of a Bitcoin transaction", action="store")  # Changed 'tx' to 'txid'
+parser.add_argument("-txid", help="Enter txid of a Bitcoin transaction", action="store")  
 parser.add_argument("-raw", help="Enter rawtx if you have it", action="store")
 if len(sys.argv) == 1:
     parser.print_help()
