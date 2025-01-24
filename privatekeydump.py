@@ -16,14 +16,14 @@ if len(sys.argv) == 1:
     sys.exit(1)
 args = parser.parse_args()
 
-txid = args.txid if args.txid else ''  # Changed 'tx' to 'txid'
+txid = args.txid if args.txid else ''
 rawtx = args.raw if args.raw else ''
 
 if txid == '' and rawtx == '':
     print("One of the options (txid/rawtx) is missing. Please provide correct input."); sys.exit(1)
 
 # CRYPTOGRAPHYTUBE
-def getRaw(txid):  # Changed 'txhash' to 'txid'
+def getRaw(txid):  
     try:
         filehtml = urlopen("https://blockchain.info/rawtx/%s?format=hex" % txid, timeout=20)  # Changed 'txhash' to 'txid'
     except:
@@ -178,4 +178,4 @@ if not private_key_found:
     print("\n[+] No reused R values detected. Private key cannot be recovered.")
 
 print("[+] Program Completed")
-print("\nCreated by: CRYPTOGRAPHYTUBE")  # Changed donation line to name only
+print("\nCreated by: CRYPTOGRAPHYTUBE")  
